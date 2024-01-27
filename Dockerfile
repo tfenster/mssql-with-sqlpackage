@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/mssql/server:2019-latest
+FROM mcr.microsoft.com/mssql/server:2022-latest
 USER root
 RUN apt update && apt install -y unzip && \
     wget -O /tmp/sqlp.zip https://aka.ms/sqlpackage-linux && \
